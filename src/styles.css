@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+
+.font-dancing-script {
+  font-family: 'Dancing Script', cursive;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Example styles for other elements */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.bg-purple-100 {
+  background-color: #e6d5f0;
+}
+
+.bg-purple-200 {
+  background-color: #d7b5e3;
+}
+
+.bg-purple-300 {
+  background-color: #c6a3d9;
+}
+
+.bg-blue-400 {
+  background-color: #4a90e2;
+}
+
+.text-purple-800 {
+  color: #6f2c91;
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
+}
+
+/* Other styles can be added as needed */
