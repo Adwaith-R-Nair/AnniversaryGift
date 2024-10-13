@@ -148,10 +148,10 @@ const BoyfriendsPage = () => {
       }
     };
   }, [showSurprise, timer]);
+ 
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-purple-300 via-blue-400 to-purple-400 p-8">
-      <audio src="/mylovr/Up - Married Life ( Sad Piano Cover Tutorial).mp3" autoPlay loop />
       <div className="max-w-4xl mx-auto">
         <h1 className="text-5xl font-bold text-center text-purple-800 mb-8 animate-bounce font-pacifico">
           for my amazing pookie boyfriend <Heart className="inline text-red-500 animate-pulse" />
