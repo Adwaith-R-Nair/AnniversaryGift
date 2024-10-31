@@ -157,7 +157,7 @@ const BoyfriendsPage = () => {
           for my amazing pookie boyfriend <Heart className="inline text-red-500 animate-pulse" />
         </h1>
 
-        <LoveMessage message="Every moment with you is a treasure. Thank you for being the most wonderful partner I could ask for. Saranghaeyo jagiy <3<3<3" />
+        <LoveMessage message="Every moment with you is a treasure. Thank you for being the most wonderful partner I could ask for. Saranghaeyo kashu <3<3<3" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
           {memories.map((memory, index) => (
